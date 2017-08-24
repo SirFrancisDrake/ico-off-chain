@@ -10,7 +10,7 @@ contract LvovsCoin is StandardToken {
   string public name = "LvovsCoin";
   string public symbol = "SML";
   uint public decimals = 18;
-  uint constant TOTAL_TOKEN_LIMIT = 7 * 1e9 * 1e18;
+  uint constant TOKEN_LIMIT = 7 * 1e9 * 1e18;
 
 
   // State variables
@@ -23,7 +23,7 @@ contract LvovsCoin is StandardToken {
 
   // Constructor
   // ===========
-  function LvovsCoin(address _manager address _team_wallet) {
+  function LvovsCoin(address _manager) {
     manager = _manager;
   }
 
