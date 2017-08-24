@@ -7,9 +7,9 @@ contract LvovsCoin is StandardToken {
 
   // Constants
   // =========
-  string public name = "LvovsCoin";
-  string public symbol = "SML";
-  uint public decimals = 18;
+  string public constant name = "LvovsCoin";
+  string public constant symbol = "SML";
+  uint public constant decimals = 18;
   uint constant TOKEN_LIMIT = 7 * 1e9 * 1e18;
 
 
